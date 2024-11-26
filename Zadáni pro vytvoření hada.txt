@@ -1,0 +1,30 @@
+Vytvoř klasickou hru Had (Snake game) s následujícími požadavky a specifikacemi:
+1. Vzhled hry:
+Herní plátno by mělo být čtvercové a zobrazené uprostřed stránky.
+Použij jednoduchý design:
+Pozadí plátna: světle šedá
+Had: tvořen zelenými čtverci
+Jablko (cílový objekt): červený čtverec
+Přidej nad herní plátno textové pole, které bude zobrazovat skóre.
+2. Herní mechanismus:
+Začátek hry:
+Po načtení stránky začne hra automaticky.
+Had se začne pohybovat zleva doprava.
+Ovládání:
+Použij šipky na klávesnici pro změnu směru pohybu.
+Zamez pohybu hada opačným směrem (např. pokud jde doprava, nemůže se okamžitě otočit doleva).
+Růst hada:
+Když had sežere jablko, prodlouží se o jeden dílek.
+Konec hry:
+Hra skončí, pokud had narazí do stěny nebo do svého vlastního těla.
+Po konci hry zobraz hlášku „Game Over“ a možnost restartovat hru stiskem klávesy mezerník
+3. Počítání skóre:
+Zobraz skóre nad herním plátnem.
+Skóre se zvyšuje o 1 bod za každé sebrané jablko.
+4. Další požadavky:
+Použij jednoduchý animovaný pohyb hada.
+Jablko by se mělo vždy objevit na náhodné pozici na plátně, která není obsazena tělem hada.
+5. Programovací jazyk:
+Vytvoř jednoduchý HTML soubor pro zobrazení hry.
+Použij CSS pro základní stylování herního plátna.
+Použij čistý JavaScript pro herní logiku
